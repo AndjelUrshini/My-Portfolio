@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Andjel Urshini</title>
+</head>
+
+<body>
+    <!-- First Page -->
+    <div class="container " id="home">
+        <div class="navBar">
+            <div class="logo">
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>ANDJEL URSHINI</h2>
+            </div>
+            <ul class="menuList">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </div>
+
+        <div class="hero hidden">
+            <div class="textContent">
+                <h1>HEY, I'M ANDJEL URSHINI</h1>
+                <p>Hardworking and self-motivated Student learning towards a Front End Developer Program. I am
+                    constantly seeking opportunities to enhance my skills and stay up-to-date with the latest industry
+                    trends.My strong attention to detail and problem-solving skills make me a valuable asset to any
+                    development team. </p>
+                <a href="#projects">PROJECTS</a>
+            </div>
+        </div>
+        <div class="social">
+            <div class="socialLinks">
+                <a href="https://www.instagram.com/andiurshini/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/andi.urshini18" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/+355695604415" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Section -->
+    <div class="about hidden" id="about">
+        <h1 class="title">My Skills</h1>
+        <div class="row">
+            <div class="cards">
+                <img src="Images/HTML.webp">
+            </div>
+            <div class="cards">
+                <img src="Images/Css.webp">
+            </div>
+            <div class="cards">
+                <img src="Images/javascript.webp">
+            </div>
+            <div class="cards">
+                <img src="Images/VisualStudio.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="cards">
+                <img src="Images/Git.png">
+            </div>
+            <div class="cards">
+                <img src="Images/React.webp">
+            </div>
+            <div class="cards">
+                <img src="Images/nodejs.png">
+            </div>
+            <div class="cards">
+                <img src="Images/AdobePhotoshop.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS Section -->
+    <div class="projects hidden " id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="imageContainer">
+                    <img src="Images/Weather.png">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus deserunt exercitationem officia,
+                    reiciendis illo nostrum et aliquam nihil eum atque dolorum quos quam asperiores tenetur quasi.
+                    Quibusdam labore quis excepturi magni vero eaque temporibus reiciendis.</p>
+                <a href="https://andjelurshini.github.io/Weather/">Click Here</a>
+            </div>
+            <div class="col-4">
+                <div class="imageContainer">
+                    <img>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus deserunt exercitationem officia,
+                    reiciendis illo nostrum et aliquam nihil eum atque dolorum quos quam asperiores tenetur quasi.
+                    Quibusdam labore quis excepturi magni vero eaque temporibus reiciendis.</p>
+                <a href="">Click Here</a>
+            </div>
+            <div class="col-4">
+                <div class="imageContainer">
+                    <img>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus deserunt exercitationem officia,
+                    reiciendis illo nostrum et aliquam nihil eum atque dolorum quos quam asperiores tenetur quasi.
+                    Quibusdam labore quis excepturi magni vero eaque temporibus reiciendis.</p>
+                <a href="">Click Here</a>
+            </div>
+            <div class="col-4">
+                <div class="imageContainer">
+                    <img>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus deserunt exercitationem officia,
+                    reiciendis illo nostrum et aliquam nihil eum atque dolorum quos quam asperiores tenetur quasi.
+                    Quibusdam labore quis excepturi magni vero eaque temporibus reiciendis.</p>
+                <a href="">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact hidden " id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-container">
+
+            <div class="input-contact">
+                <h1>Get In Touch</h1>
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <input type="hidden" name="access_key" value="1ee3679b-570a-45e0-a567-2b31719914c2">
+
+                    <input type="text" name="name" placeholder="Name" class="contact-inputs" required
+                        autocomplete="off">
+                    <input type="email" name="email" placeholder="Email" class="contact-inputs" required
+                        autocomplete="off">
+                    <input type="text" name="subject" placeholder="Subject" class="contact-inputs" required
+                        autocomplete="off">
+                    <input type="tel" name="phone" placeholder="Number: 069 696 6969" class="contact-inputs" required
+                        autocomplete="off" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+
+                    <textarea name="message" placeholder="Your Message" class="textarea" required
+                        autocomplete="off"></textarea>
+                    <button class="btn" type="submit"> Send Message </button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer hidden">
+        <div class="row">
+            <div class="footer-col">
+                <p class="gray">Get In Touch</p>
+                <a href="mailto: andi.urshini@gmail.com" target="_blank">
+                    <p>andi.urshini@gmail.com</p>
+                </a>
+                <a href="https://wa.me/+355695604415" target="_blank">
+                    <p>+355 69 560 4415</p>
+                </a>
+            </div>
+            <div class="footer-col">
+                <p class="gray">Connect</p>
+                <a href="https://www.instagram.com/andiurshini/" target="_blank">
+                    <p>Instagram</p>
+                </a>
+                <a href="https://www.facebook.com/andi.urshini18" target="_blank">
+                    <p>Facebook</p>
+                </a>
+            </div>
+            <div class="footer-col">
+                <p class="gray">Projects</p>
+                <a href="">
+                    <p>NoteBook App</p>
+                </a>
+                <a href="">
+                    <p>Weather App</p>
+                </a>
+                <a href="">
+                    <p>Movie Website</p>
+                </a>
+                <a href="">
+                    <p>ChatOnline App</p>
+                </a>
+            </div>
+            <div class="footer-col">
+                <p class="gray">Skills</p>
+                <p>HTML & CSS</p>
+                <p>JavaScript</p>
+                <p>Git</p>
+                <p>React</p>
+                <p>Visual Studio Code</p>
+                <p>Adobe Photoshop</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Code -->
+    <script>
+        const menuIcon = document.getElementById("menuIcon");
+        const menuList = document.querySelector(".menuList")
+
+        menuIcon.onclick = () => {
+            menuList.classList.toggle("showMenu");
+        }
+
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                } else {
+                    entry.target.classList.remove("show");
+                }
+            });
+        });
+        // const navBar = document.querySelector(".navBar");
+        const hiddenElements = document.querySelectorAll(".hidden");
+
+        hiddenElements.forEach((el) => observer.observe(el));
+    </script>
+</body>
+
+</html>
