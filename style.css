@@ -8,8 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 :root{
-    --background: hsl(0, 0%, 95%);
-    --black: black;
+    --background: #EFF0F3;
+    --black: #0D0D0D;
+    --orange: #F0944f ;
+    --white: white;
 }
 .container{
     width: 100%;
@@ -19,7 +21,7 @@ html{
 }
 .navBar{
     width: 100%;
-    background-color: white;
+    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +36,7 @@ html{
 }
 .fa-user-tie{
     font-size: 25px;
-    background-color: orange;
+    background-color: var(--orange);
     padding: 10px;
     border-radius: 50%;
     margin-right: 10px;
@@ -66,7 +68,7 @@ transition: 0.2s;
 .menuList li::after{
     content: "";
     width: 100%;
-    background: var(--black);
+    background: var(--orange);
     height: 2.5px;
     display: block;
     opacity: 0;
@@ -115,7 +117,7 @@ transition: 0.2s;
 .textContent a{
     text-decoration: none;
     color: var(--black);
-    background-color: orange;
+    background-color: var(--orange);
     padding: 15px 30px;
     font-size: 20px;
     border-radius: 3px;
@@ -124,14 +126,14 @@ transition: 0.2s;
 
 }
 .textContent a:hover{
-    background-color: hsl(39, 100%, 60%);
+    background-color: hsl(26, 84%, 53%);
 }
 
 /* Social DIV */
 .social{
     width: 60px;
     height: 250px;
-    background: white;
+    background: var(--white);
     display: flex;
     align-items: center;
     text-align: center;
@@ -172,7 +174,6 @@ transition: 0.2s;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 50px;
-    
 }
 .title{
     text-align: center;
@@ -184,7 +185,7 @@ transition: 0.2s;
 }
 .title::after{
     content: '';
-    background: orange;
+    background: var(--orange);
     width: 180px;
     height: 8px;
     border-radius: 5px;
@@ -281,16 +282,17 @@ transition: 0.2s;
     margin: 0 auto ;
     width: 40%;
     padding: 10px 15px;
-    background-color: orange;
+    background-color: var(--orange);
     margin-bottom: 20px;
     margin-top: auto;
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
     transition: 0.2s;
+    color: var(--black);
 }
 .col-4 a:hover{
-    background-color: hsl(39, 100%, 60%);
+    background-color: hsl(26, 84%, 53%);
 }
 
 
@@ -337,7 +339,7 @@ transition: 0.2s;
     transition: 0.2s;
 }
 .input-contact input:focus{
-    border: 1px solid orange;
+    border: 1px solid var(--orange);
     background-color: var(--background);
 }
 .textarea{
@@ -351,14 +353,14 @@ transition: 0.2s;
     margin-top: 20px;
 }
 .textarea:focus{
-    border: 1px solid orange;
+    border: 1px solid var(--orange);
     background-color: var(--background);
 }
 
 .btn{
     padding: 15px 30px;
     font-size: 15px;
-    background-color: orange;
+    background-color: var(--orange);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -369,7 +371,8 @@ transition: 0.2s;
     margin-top: 50px;
 }
 .btn:hover{
-    background-color: hsl(39, 100%, 30%);
+    background-color: hsl(26, 84%, 53%);
+
     transform: translateY(-20px);
 }
 
