@@ -233,10 +233,9 @@ transition: 0.2s;
     width: 100%;
     min-height: 60vh;
     background-color: var(--background);
-    padding-left: 25px;
-    padding-right: 25px;
     transition: 0.2s;
     padding-bottom: 50px;
+    margin: auto;
 }
 .col-4{
     min-width: 300px;
@@ -294,7 +293,6 @@ transition: 0.2s;
 .col-4 a:hover{
     background-color: hsl(26, 84%, 53%);
 }
-
 
 /* Contact Section */
 
@@ -621,6 +619,9 @@ transition: 0.2s;
         font-size: 12px;
         padding: 10px 20px;
     }
+    .row{
+        padding: 0 3%;
+    }
     .cards{
         width: 100px;
         height: 100px;
@@ -630,8 +631,7 @@ transition: 0.2s;
         margin-bottom: 60px;
     }
     .col-4{
-        min-width: 300px;
-        min-height: 300px;
+        min-width: 270px;
         flex-basis: 100%;
     }
     .imageContainer{
